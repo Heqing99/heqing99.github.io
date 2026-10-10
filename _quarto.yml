@@ -1,0 +1,19 @@
+project:
+  type: default
+  output-dir: _site
+  resources:
+    - images/
+    - styles.css
+    - site.js
+
+format:
+  html:
+    template: _template.html
+    theme: none
+    minimal: true
+    toc: false
+    anchor-sections: false
+    email-obfuscation: none
+
+execute:
+  freeze: auto
